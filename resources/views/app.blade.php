@@ -8,6 +8,7 @@
     <title>bolsa-treball</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+    <link rel="stylesheet" href="dist/app.css" />
   </head>
   <body>
     <noscript>
@@ -15,5 +16,6 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <script src="dist/app.js"></script>
   </body>
 </html>
