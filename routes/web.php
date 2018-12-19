@@ -11,12 +11,7 @@
 |
 */
 
-$router->group(['prefix' => 'api'], function ($router) {
 
-    $router->get('/example', 'ExampleController@show');
-    $router->get('/second-example', 'ExampleController@showAnother');
-
-});
 
 $router->get('/{route:.*}/', function ()  {
     return view('app');

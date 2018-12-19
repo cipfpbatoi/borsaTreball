@@ -1,21 +1,2 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>bolsa-treball</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
-    <link rel="stylesheet" href="dist/app.css" />
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but bolsa-treball doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-    <script src="dist/app.js"></script>
-  </body>
-</html>
+<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><title>Vue App</title><link href=/js/about.256f241c.js rel=prefetch><link href=/css/chunk-vendors.83d61e9d.css rel=preload as=style><link href=/js/app.46dbd444.js rel=preload as=script><link href=/js/chunk-vendors.4065b058.js rel=preload as=script><link href=/css/chunk-vendors.83d61e9d.css rel=stylesheet></head><body><div id=app></div><script src=/js/chunk-vendors.4065b058.js></script><script src=/js/app.46dbd444.js></script></body></html>
+
