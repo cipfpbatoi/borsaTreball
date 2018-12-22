@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # bolsa-treball
 
 ## Project setup
@@ -31,4 +30,3 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 =======
 # borsaTreball
 Borsa del Treball del CIP FP Batoi
->>>>>>> b12e61ac9ff1e876011db394df7604ad0bbfc9ca
