@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/';
+const API_URL = 'http://borsaTreball.my/api/';
 
 const myId=1;
 

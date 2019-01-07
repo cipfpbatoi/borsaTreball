@@ -11,7 +11,9 @@
 |
 */
 
-
+$router->group(['prefix' => 'api'], function ($router) {
+    $router->get('/menu', 'MenuController@index');
+});
 
 $router->get('/{route:.*}/', function ()  {
     return view('app');
