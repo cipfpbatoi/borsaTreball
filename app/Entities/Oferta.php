@@ -5,9 +5,9 @@ namespace App\Entities;
 use Illuminate\Database\Eloquent\Model;
 
 
-class Menu extends Model
+class Oferta extends Model
 {
     public $timestamps = false;
-    protected $table = 'menu';
+    protected $table = 'ofertes';
     
 }

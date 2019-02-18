@@ -1,7 +1,5 @@
 const API_URL = 'http://borsaTreball.my/api/';
-
 const myId=1;
-
 import axios from 'axios'
 
 export default {
@@ -31,30 +29,30 @@ export default {
     },
     getUser(item) {
         // prova
-        return new Promise(function(resolve, reject) {
-            resolve({
-                data: {
-                    id:5,
-                    user:item.user,
-                    rol:2,
-                    token:'asdad6acguas6utash768a'
-                }    
-            })
-        });
-        return axios.post(API_URL + 'users/', item)
+//        return new Promise(function(resolve) {
+//            resolve({
+//                data: {
+//                    id:5,
+//                    user:item.user,
+//                    rol:2,
+//                    token:'asdad6acguas6utash768a'
+//                }    
+//            })
+//        });
+        return axios.get(API_URL + 'users/', item)
     },
     saveUser(item) {
         // prova
-        return response={
-            data: {
-                id:5,
-                user:item.user,
-                rol:2,
-                token:'asdad6acguas6utash768a'
-            }
-        }
+//        return response={
+//            data: {
+//                id:5,
+//                user:item.user,
+//                rol:2,
+//                token:'asdad6acguas6utash768a'
+//            }
+//        }
         // No se usa saveItem porque hay que guardarlo en Users y en Alumnos/Empresas
-        return axios.post(API_URL + table, item);
+        return axios.post(API_URL + 'users/', item);
     },
     sendMail(mail) {
         return axios.post(API_URL + '/mail', mail);

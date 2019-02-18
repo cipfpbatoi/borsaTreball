@@ -119,13 +119,13 @@ class ApiBaseController extends Controller
 
     protected function sendResponse($result, $message)
     {
-        return response()->json(['message'=>$message,'result'=>$result]);
+        return response()->json($result);
         //return Response::json(ResponseUtil::makeResponse($message, $result));
     }
 
     protected function sendError($error, $code = 404)
     {
-        return response()->json(['message'=>$error,'result'=>$code]);
+        return response()->json(['message'=>$error,'data'=>$code]);
         //return Response::json(ResponseUtil::makeError($error), $code);
     }
 
