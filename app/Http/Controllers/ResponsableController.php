@@ -8,6 +8,7 @@ class ResponsableController extends ApiBaseController
 {
 
     protected $model = 'Responsable';
+    
 
 }
 

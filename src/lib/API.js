@@ -29,16 +29,16 @@ export default {
     },
     getUser(item) {
         // prova
-//        return new Promise(function(resolve) {
-//            resolve({
-//                data: {
-//                    id:5,
-//                    user:item.user,
-//                    rol:2,
-//                    token:'asdad6acguas6utash768a'
-//                }    
-//            })
-//        });
+        return new Promise(function(resolve) {
+            resolve({
+                data: {
+                    id:5,
+                    user:item.user,
+                    rol:2,
+                    token:'asdad6acguas6utash768a'
+                }    
+            })
+        });
         return axios.get(API_URL + 'users/', item)
     },
     saveUser(item) {
