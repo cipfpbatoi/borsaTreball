@@ -9,5 +9,6 @@ class Oferta extends Model
 {
     public $timestamps = false;
     protected $table = 'ofertes';
+    protected $guarded = [];
     
 }

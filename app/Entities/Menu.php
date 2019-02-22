@@ -9,5 +9,6 @@ class Menu extends Model
 {
     public $timestamps = false;
     protected $table = 'menu';
+    protected $guarded = [];
     
 }
